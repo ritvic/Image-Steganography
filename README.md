@@ -18,4 +18,5 @@ audio files, communication channels, and other text and binary files.
 
 # Reference
 https://www.mygreatlearning.com/blog/image-steganography-explained/
+
 https://www.simplilearn.com/what-is-steganography-article
