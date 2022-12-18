@@ -28,13 +28,13 @@ This would alter colours in the original image in the three channels for the 3 p
 
 # Result
 Original image (Img.jpg) vs. Image after the message has been baked in (Img-enc.png) and their respective properties:
-<p align="center">
-  <img src="https://github.com/ritvic/Deepfake-Detection-Using-Reccurent-Neural-Network/blob/main/github_assets/System%20Architecture.png" />
-</p>
-<p align="center">
-  <img src="https://github.com/ritvic/Deepfake-Detection-Using-Reccurent-Neural-Network/blob/main/github_assets/System%20Architecture.png" />
-</p>
 
+<p align="center">
+  <img src="https://github.com/ritvic/Image-Steganography/blob/main/asset/1.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/ritvic/Image-Steganography/blob/main/asset/2.jpeg" />
+</p>
 
 # Conclusion
 Steganography is not intended to replace cryptography but rather to supplement it. If
