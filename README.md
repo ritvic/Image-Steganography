@@ -9,11 +9,12 @@ hidden message is easier to extract.
 Before diving into steganography, it is important to understand pixels and colour models. A pixel is the smallest building of an image and the colours in any pixel are (assume RGB) a function of the combination of proportions of red, green, and blue. So a pixel with a value of 0, 0, and 1 would mean 0 parts of red, 0 parts of green and 1 part of blue; in essence, this would turn out to be a blue pixel. In the case of an 8-bit system, a pixel can accommodate up to 8 digits (zeros or ones), and the largest number that could be represented in 8 digits is 11111111 which would be 255, and the smallest number that could be represented in 8 digits, would be 00000000 which would be 0. So any pixel in an 8-bit scenario could accommodate anything between 0 to 255 as a value for each of the colours. Now let’s say a random 8-bit grid has 3 pixels and each pixel having the below values for R, G, and B.
 
 
-| |The proportion of Red (R)|	The proportion of Green (G)	|The proportion of Blue (B)|
+|               |The proportion of Red (R)|	The proportion of Green (G)	|The proportion of Blue (B)|
 |------------|--------------|--------------|----------|
 |Pixel 1	|00101101	|00011100	|11011100|
 |Pixel 2	|10100110	|11000100	|00001100|
 |Pixel 3	|11010010	|10101101	|01100011|
+
 And if we want to house a secret number 200, we get the binary value of that number, i.e, 11001000. and use each digit of that number to replace the least significant digit (mostly the last digit) of our pixel grid, indicated in bold red font. The new colour scheme would be as below: 
 
 
