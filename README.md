@@ -18,10 +18,12 @@ Before diving into steganography, it is important to understand pixels and colou
 And if we want to house a secret number 200, we get the binary value of that number, i.e, 11001000. and use each digit of that number to replace the least significant digit (mostly the last digit) of our pixel grid, indicated in bold red font. The new colour scheme would be as below: 
 
 
-The proportion of Red (R)	The proportion of Green (G)	The proportion of Blue (B)
-Pixel 1	00101101	00011101	11011100
-Pixel 2	10100110	11000101	00001100
-Pixel 3	11010010	10101100	01100011
+|               |The proportion of Red (R)|	The proportion of Green (G)	|The proportion of Blue (B)|
+|------------|--------------|--------------|----------|
+|Pixel 1	|00101101	|00011101	|11011100|
+|Pixel 2	|10100110	|11000101	|00001100|
+|Pixel 3	|11010010	|10101100	|01100011|
+
 This would alter colours in the original image in the three channels for the 3 pixels by the smallest amount, thereby rendering the alerted image almost indistinguishable from the original image.
 
 # Result
