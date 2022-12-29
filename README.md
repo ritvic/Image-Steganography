@@ -37,6 +37,7 @@ Original image (Img.jpg) vs. Image after the message has been baked in (Img-enc.
 </p>
 
 # Conclusion
+
 Steganography is not intended to replace cryptography but rather to supplement it. If
 a message is encrypted and hidden with a steganographic method it provides an
 additional layer of protection and reduces the chance of the hidden message being
